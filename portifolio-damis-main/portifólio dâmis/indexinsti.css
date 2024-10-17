@@ -1,7 +1,6 @@
 * {
     background-color: rgb(243, 203, 199);
 }
-
 header {
     display: flex;
     flex-direction: column;
@@ -15,31 +14,78 @@ header {
     margin-bottom: 20px;
     border-bottom: 4px solid rgb(177, 91, 81);
 }
-
 header h1 {
     background-color: salmon;
     text-align: center;
 }
-
 header a {
     background-color: salmon;
     color: rgb(78, 32, 32);
     text-decoration: none;
     transition: color 0.3s;
 
-
 }
-
 a:hover {
     text-decoration: none;
     color: brown;
 }
-
 footer {
     background-color: salmon;
     padding: 20px;
     text-align: center;
     border-radius: 10px;
     margin-top: 50px;
+
+}
+
+
+main h1 {
+    text-align: center;
+}
+
+#senac-rs{
+    width: 18%;
+    padding: 5px;
+    border-radius: 100px;
+    margin-left: 100px;
+   
+    position: sticky;
+    position: absolute;
+}
+#paulo-couto{
+    width: 18%;
+    padding: 5px;
+    border-radius: 100px;
+    margin-left: 100px;
+    
+   
+    position: sticky;
+    position: absolute;
+}
+
+
+#paragrafo-pc{
+    position: static;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 7%;
+    width: 40%;
+    height: 200px;
+}
+#titulo-pc{
+    text-align: center;
+    margin-top: 5%;
+}
+#paragrafo-senac {
+    position: static;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 0%;
+    width: 40%;
+}
+a{
+    color: rgb(78, 32, 32);
+    text-decoration: none;
+    transition: color 0.3s;
 
 }
